@@ -25,7 +25,7 @@ writing.
    no card needed) → **New project**.
    - Pick any name (e.g. `chotus-club-inventory`) and a strong database
      password — save that password somewhere, you won't need it day-to-day
-     but you may need it later. (Abdulahad.012)
+     but you may need it later.
    - Pick a region close to Pakistan (e.g. Singapore) for the best speed.
 2. Once the project finishes setting up (~2 minutes), open the **SQL
    Editor** (left sidebar) → **New query**.
@@ -35,14 +35,14 @@ writing.
    you can confirm things work before deleting it.
 4. Go to **Project Settings → API** (gear icon, bottom left → API). You'll
    need two values from this page in step 3 below:
-   - **Project URL** hsbizjhfnndairkgkzmt
+   - **Project URL**
    - **anon public** key (NOT the `service_role` key — never use that one
-     in this app) eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhzYml6amhmbm5kYWlya2drem10Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3OTc1NjksImV4cCI6MjEwNTM3MzU2OX0.NONHb8_Py8DyVpE1o3E4B_Bpe7FmRIfqxYVV4sSNkNc
+     in this app)
 
 ### Create your first login (yourself, as Owner)
 
 1. In Supabase, go to **Authentication → Users → Add user → Create new
-   user**. Enter your email and a password. (syedhaiderafzal@gmail.com;Qwerty123#) Untick "Auto Confirm" only if
+   user**. Enter your email and a password. Untick "Auto Confirm" only if
    you want an email confirmation step — for a small internal tool it's
    fine to leave "Auto Confirm" checked so you can log in immediately.
 2. This automatically creates a matching row in the `profiles` table with
@@ -55,7 +55,7 @@ writing.
    ```
    (Replace the email with the one you just created.)
 3. Repeat "Add user" for each staff member. Leave their role as
-   `store_staff` — no SQL needed for them. (xyedxcorpio@gmail.com;Qwerty321#)
+   `store_staff` — no SQL needed for them.
 
 There's no public sign-up page on purpose — you control who gets an
 account, directly in Supabase.
